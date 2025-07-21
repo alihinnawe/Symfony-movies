@@ -1,33 +1,16 @@
-###> Symfony ###
-/.env
-/.env.dev
+###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
 /var/
 /vendor/
-###< Symfony ###
+###< symfony/framework-bundle ###
 
-###> Webpack Encore ###
+###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public/build/
-/public/bundles/
 npm-debug.log
 yarn-error.log
-.pnp.*
-###< Webpack Encore ###
-
-###> PHPUnit ###
-/phpunit.result.cache
-###< PHPUnit ###
-
-###> Logs ###
-/var/log/
-*.log
-###< Logs ###
-
-###> OS/System ###
-.DS_Store
-Thumbs.db
-###< OS/System ###
+###< symfony/webpack-encore-bundle ###
